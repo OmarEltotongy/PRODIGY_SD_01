@@ -25,14 +25,20 @@ int main()
     {
         cout << "Press 1 to Convert Temp\nPress 2 to Exit the Program\n";
         cin >> continue_flag;
-        
+
         if (continue_flag == 1)
         {
 
             cout << "Please Enter a Temperature: ";
 
             float temp = 0;
-            cin >> temp;
+
+            while (!(cin >> temp)) 
+            { 
+                cout << "Invalid input. Please enter a valid number for temperature: ";
+                cin.clear();
+                cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            }
 
             cout << "Is this Temperature in Celsius or Fahrenheit or Kelvin scales?\n"
                 "For Celsius enter c\nFor Fahrenheit enter f\nFor Kelvin enter k\n"
@@ -67,7 +73,7 @@ int main()
         }
         else
         {
-            cout << "Please enter a valid Number\n";
+            cout << "Invalid input.Please press 1 to convert temperature or 2 to exit.\n";
         }
         
     } while (ProgramFlag != 0);
