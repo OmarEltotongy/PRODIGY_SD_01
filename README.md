@@ -66,25 +66,26 @@ For instance, if you enter **100°C**, the program will convert it to:
 
 ---
 
-## Conversion Formulas
+# Conversion Formulas
 
-- **Celsius to Fahrenheit**:  
-  \[ F = \left( C \times \frac{9}{5} \right) + 32 \]
-  
-- **Celsius to Kelvin**:  
-  \[ K = C + 273.15 \]
+### Celsius to Fahrenheit:
+\[ F = \left( C \times \frac{9}{5} \right) + 32 \]
 
-- **Fahrenheit to Celsius**:  
-  \[ C = \left( F - 32 \right) \times \frac{5}{9} \]
+### Celsius to Kelvin:
+\[ K = C + 273.15 \]
 
-- **Fahrenheit to Kelvin**:  
-  \[ K = \left( F - 32 \right) \times \frac{5}{9} + 273.15 \]
+### Fahrenheit to Celsius:
+\[ C = \left( F - 32 \right) \times \frac{5}{9} \]
 
-- **Kelvin to Celsius**:  
-  \[ C = K - 273.15 \]
+### Fahrenheit to Kelvin:
+\[ K = \left( F - 32 \right) \times \frac{5}{9} + 273.15 \]
 
-- **Kelvin to Fahrenheit**:  
-  \[ F = \left( K - 273.15 \right) \times \frac{9}{5} + 32 \]
+### Kelvin to Celsius:
+\[ C = K - 273.15 \]
+
+### Kelvin to Fahrenheit:
+\[ F = \left( K - 273.15 \right) \times \frac{9}{5} + 32 \]
+
 
 ---
 
